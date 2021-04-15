@@ -1,17 +1,5 @@
 'use strict';
 
-
-const elements = categories.querySelectorAll('.item');
-elements.forEach(element => {
-  console.log(`Категория: ${element.firstElementChild.textContent}`);
-  console.log(`Количество єлементов: ${element.lastElementChild.children.length}`);
-});
-
-
-
-
-
-
 // Напиши скрипт, который выполнит следующие операции.
 
 // Посчитает и выведет в консоль количество категорий в ul#categories,
@@ -28,6 +16,20 @@ elements.forEach(element => {
 
 // Категория: Животные
 // Количество элементов: 4
+
+
+const elements = categories.querySelectorAll('.item');
+elements.forEach(element => {
+  console.log(`Категория: ${element.firstElementChild.textContent}`);
+  console.log(`Количество єлементов: ${element.lastElementChild.children.length}`);
+});
+
+
+
+
+
+
+
 
 
 
