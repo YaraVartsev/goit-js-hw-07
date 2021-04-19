@@ -34,10 +34,11 @@ const images = [
 
 const imagesListContainer = document.querySelector('#gallery');
 
-imagesListContainer.style.display = 'flex';
-imagesListContainer.style.alignItems = 'center';
-imagesListContainer.style.justifyContent = 'space-between';
+// imagesListContainer.style.display = 'flex';
+// imagesListContainer.style.alignItems = 'center';
+// imagesListContainer.style.justifyContent = 'space-between';
 
+imagesListContainer.setAttribute('style', 'displey: flex; alignItems: center; ustifyContent: space-between;');
 
 const imagesListItemTemplate = ({url, alt}) => {
   return `

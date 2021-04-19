@@ -1,20 +1,5 @@
 'use strict'
 
-// const inputForm = document.getElementById('validation-input');
-
-// const lengthForm = inputForm.getAttribute('data-length');
-
-// const lengthControl = parseInt(lengthForm, 10);
-
-// inputForm.addEventListener('blur', () => {
-//   if (inputForm.nodeValue.length == lengthControl) {
-//     inputForm.classList.add('valid');
-//     inputForm.classList.remove('invalid');
-//   } else {
-//    inputForm.classList.add('invalid') 
-//   };
-// });
-
 
 // Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое на правильное количество символов.
 
